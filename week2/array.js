@@ -22,3 +22,18 @@ console.log(array[lastIndex]);
 for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
+
+let newArray1 = ["Hallo", "Bonjour"];
+let newArray2 = new Array("Hallo", "Bonjour");
+
+newArray1[0] = "Hello";
+console.log(newArray1); // ["Hello", "Bonjour"]
+newArray1[2] = "Gutentag";
+newArray1[3] = "Konnichiwa";
+console.log(newArray1);
+
+const cars = [];
+cars[0] = "Saab";
+cars[1] = "Volvo";
+cars[2] = "BMW";
+console.log(cars); // ["Saab", "Volvo", "BMW"]
