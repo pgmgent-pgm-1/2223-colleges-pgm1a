@@ -63,5 +63,5 @@ const sentence = "Hallo het is maandag";
 // string omvormen naar array
 let sentenceArray = sentence.split(" ");
 sentenceArray = sentenceArray.reverse();
-// terug naar een zin
+// terug naar een string
 console.log(sentenceArray.join(" "));
