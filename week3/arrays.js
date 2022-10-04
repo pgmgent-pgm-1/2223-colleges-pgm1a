@@ -62,6 +62,7 @@ console.log(clothes.join("-")); // array naar string
 const sentence = "Hallo het is oktober";
 // string omvormen naar array
 let sentenceArray = sentence.split(" ");
+// array omdraaien
 sentenceArray = sentenceArray.reverse();
 // terug naar een string
 console.log(sentenceArray.join(" "));
