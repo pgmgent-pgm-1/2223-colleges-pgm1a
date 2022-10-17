@@ -4,13 +4,13 @@
   const $body = document.body;
 
   getRandomNumber = (min, max) => {
-    return Math.round(Math.random() * (max - min)) + min;
+    return Math.floor(Math.random() * (max - min)) + min;
   };
 
   setInterval(() => {
     // random index van 0 tot Length - 1
-    const index = getRandomNumber(0, colors.length - 1);
-    const bgIndex = getRandomNumber(0, colors.length - 1);
+    const index = getRandomNumber(0, colors.length);
+    const bgIndex = getRandomNumber(0, colors.length);
     // zet item met bepaalde index
     $body.style.backgroundColor = colors[bgIndex];
     $rectangle.style.backgroundColor = colors[index];
