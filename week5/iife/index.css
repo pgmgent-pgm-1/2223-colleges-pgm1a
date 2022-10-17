@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 0.3s ease-in;
+}
+
+.rectangle {
+  width: 20vw;
+  height: 20vw;
+  border: 1px solid white;
+  background-color: red;
+  transition: all 0.3s ease-in;
+}
