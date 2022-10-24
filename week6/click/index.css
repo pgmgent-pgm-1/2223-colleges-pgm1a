@@ -1,0 +1,27 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.btn {
+  display: block;
+  position: fixed;
+  margin: 0 auto;
+  top: 4vw;
+  z-index: 100;
+}
+
+.circle {
+  display: block;
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  left: 0;
+  top: 0;
+  background-color: red;
+  margin-left: -10vw;
+  border-radius: 100%;
+}
