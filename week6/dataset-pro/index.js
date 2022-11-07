@@ -54,7 +54,7 @@
       const $items = document.querySelectorAll("#list li");
       for (const $item of $items) {
         $item.addEventListener("click", (e) => {
-          const id = e.target.dataset.id;
+          const id = e.currentTarget.dataset.id;
           const item = podcasts.find((podcast) => {
             return podcast.id === parseInt(id);
           });

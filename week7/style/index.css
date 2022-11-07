@@ -1,0 +1,13 @@
+.rectangle {
+  width: 50vw;
+  height: 20vw;
+  background: red;
+  position: fixed;
+  left: -100%;
+  top: 10%;
+  transition: all 0.2s ease-in;
+}
+
+.rectangle.open {
+  left: 0;
+}
